@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 
 const Navigationbar = ({ auth, onClick }) => (
    <Navbar bg="white" fixed="top" expand="sm">
-      <Link to="/Dashboard">
+      <Link to="/dashboard">
          <Navbar.Brand>Authentication</Navbar.Brand>
       </Link>
       <Nav className="ml-auto">
