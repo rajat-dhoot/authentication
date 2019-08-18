@@ -1,11 +1,10 @@
 const express = require("express");
-require("dotenv").config();
+require("dotenv").config(); // for loading environment variables
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const passport = require("passport");
 const path = require("path");
 const users = require("./routes/api/users");
-// for loading environment variables
 
 const app = express();
 
